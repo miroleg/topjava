@@ -29,10 +29,9 @@
         <assertj.version>3.16.1</assertj.version>
 
         <!-- Hibernate -->
-        <hibernate.version>5.4.18.Final</hibernate.version>
-        <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
-        <jsoup.version>1.13.1</jsoup.version>
-        <javax-el.version>3.0.1-b11</javax-el.version>
+        <hibernate.version>5.4.28.Final</hibernate.version>
+        <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
+        <javax-el.version>3.0.1-b12</javax-el.version>
 
     </properties>
 
@@ -161,6 +160,7 @@
             <version>5.2.8.RELEASE</version>
             <scope>test</scope>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
         <dependency>
             <groupId>org.assertj</groupId>
@@ -168,13 +168,6 @@
             <version>3.19.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>jakarta.validation</groupId>
-            <artifactId>jakarta.validation-api</artifactId>
-            <version>2.0.2</version>
-        </dependency>
-
-
     </dependencies>
 
     <profiles>
